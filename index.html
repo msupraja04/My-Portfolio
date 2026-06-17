@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manda Supraja | Software Developer Portfolio</title>
+    <!-- Premium Professional Typography & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Sora:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+
+    <!-- Cyber Digital Background Effects from ChatGPT Image May 31, 2026, 09_32_11 PM.png -->
+    <div class="cyber-grid-overlay"></div>
+    <div class="ambient-glow glow-blue"></div>
+    <div class="ambient-glow glow-purple"></div>
+    <div class="ambient-glow glow-pink"></div>
+    
+    <!-- Floating Particles Container -->
+    <div class="particles-container" id="particlesContainer"></div>
+
+    <!-- Navigation Bar (Structure Maintained) -->
+    <header>
+        <nav class="nav-container">
+            <a href="#" class="logo">< Supraja Manda<span class="logo-dot"> / ></span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="MSuprajas_Resume1_original .pdf" download class="btn btn-nav"><i class="fas fa-download"></i> Resume</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <!-- Hero Section (Updated per requirements) -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-badge">Computer Science Student</span>
+                <h1 class="neon-text-blue">Manda Supraja</h1>
+                <p class="hero-subtitle">Aspiring Software Developer | Full Stack Developer | Problem Solver</p>
+                <!-- University name removed as requested -->
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="MSuprajas_Resume1_original .pdf" download class="btn btn-secondary"><i class="fas fa-file-pdf"></i> Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image-area">
+                <div class="image-frame-wrapper">
+                    <img src="supraja.jpeg" alt="Manda Supraja Profile" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section (Typography and Spacing Refined) -->
+    <section id="about" class="about-section scroll-reveal">
+        <div class="container">
+            <h2 class="section-title neon-text-pink">About Me</h2>
+            <div class="about-card glass-card">
+                <p class="about-lead">I am a Computer Science Engineering student with a strong interest in software development, Full stack development and problem solving.</p>
+                <p>Currently pursuing my engineering degree, I specialize in building efficient, clean applications using the Java ecosystem, modern backend frameworks, and responsive frontend architectures. I focus on translating algorithmic reasoning into reliable web solutions while keeping user experiences fluid and intuitive.</p>
+                <p>Driven by an internship-ready mindset, I actively continuous-learn to master modern design principles and clean software engineering workflows, looking forward to creating an impact as a professional software developer.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section (Maintained Structure) -->
+    <section id="skills" class="skills-section scroll-reveal">
+        <div class="container">
+            <h2 class="section-title neon-text-blue">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-group-card glass-card">
+                    <h3>Languages & Core</h3>
+                    <div class="skill-badges">
+                        <span><i class="fab fa-java java-icon"></i> Java</span>
+                        <span><i class="fab fa-python python-icon"></i> Python</span>
+                        <span><i class="fas fa-code"></i> DSA</span>
+                    </div>
+                </div>
+                <div class="skill-group-card glass-card">
+                    <h3>Web Frontend</h3>
+                    <div class="skill-badges">
+                        <span><i class="fab fa-html5 html-icon"></i> HTML</span>
+                        <span><i class="fab fa-css3-alt css-icon"></i> CSS</span>
+                        <span><i class="fab fa-js js-icon"></i> JavaScript</span>
+                        <span><i class="fab fa-react react-icon"></i> React</span>
+                    </div>
+                </div>
+                <div class="skill-group-card glass-card">
+                    <h3>Backend & Data</h3>
+                    <div class="skill-badges">
+                        <span><i class="fas fa-leaf spring-icon"></i> Spring Boot</span>
+                        <span><i class="fas fa-database mysql-icon"></i> MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-group-card glass-card">
+                    <h3>Tools & Control</h3>
+                    <div class="skill-badges">
+                        <span><i class="fab fa-git-alt git-icon"></i> Git</span>
+                        <span><i class="fab fa-github"></i> GitHub</span>
+                        <span><i class="fab fa-microsoft"></i> VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Experience Section (Updated with Reference Styling) -->
+    <section id="experience" class="experience-section scroll-reveal">
+        <div class="container">
+            <h2 class="section-title neon-text-pink">Internship Experience</h2>
+            <div class="timeline">
+                
+                <!-- Internship Card 1 -->
+                <div class="timeline-card glass-card neon-border-purple">
+                    <div class="timeline-header">
+                        <div class="header-left">
+                            <div class="card-icon-box"><i class="fas fa-briefcase"></i></div>
+                            <div>
+                                <h3>Java Full Stack Developer Intern</h3>
+                                <p class="company-tag">Professional Internship</p>
+                            </div>
+                        </div>
+                        <span class="pink-glow-badge">Completed</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Worked on Java backend development</li>
+                        <li>Implemented Spring Boot & REST APIs</li>
+                        <li>Built responsive web applications</li>
+                        <li>Collaborated in real-world workflows</li>
+                    </ul>
+                    <div class="card-action-row">
+                    </div>
+                </div>
+
+                <!-- Internship Card 2 -->
+                <div class="timeline-card glass-card neon-border-purple">
+                    <div class="timeline-header">
+                        <div class="header-left">
+                            <div class="card-icon-box"><i class="fas fa-briefcase"></i></div>
+                            <div>
+                                <h3>Java Programming Intern</h3>
+                                <p class="company-tag">Technical Internship</p>
+                            </div>
+                        </div>
+                        <span class="pink-glow-badge">Completed</span>
+                    </div>
+                    <ul class="experience-details">
+                        <li>Strengthened Java programming fundamentals</li>
+                        <li>Practiced OOPs and core concepts</li>
+                        <li>Worked on mini projects and problem solving</li>
+                    </ul>
+                    <div class="card-action-row">
+                       
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Filtered and Styled) -->
+    <section id="projects" class="projects-section scroll-reveal">
+        <div class="container">
+            <h2 class="section-title neon-text-blue">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-card neon-border-blue">
+                    <div class="project-info">
+                        <h3>Habit Tracker</h3>
+                        <div class="project-tags"><span>Java</span><span>Spring Boot</span><span>MySQL</span></div>
+                        <p>A web application built to help users seamlessly log routines, monitor behavioral trends, and maintain structured daily tracking logs safely through relational databases.</p>
+                    </div>
+                    <div class="card-action-row">
+                        <a href="https://github.com/msupraja04/Habit-Tracker" target="_blank" class="btn btn-action-card btn-source"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="https://msupraja04.github.io/Habit-Tracker/" target="_blank" class="btn btn-action-card btn-demo">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card neon-border-blue">
+                    <div class="project-info">
+                        <h3>Quiz Application</h3>
+                        <div class="project-tags"><span>Java</span><span>MySQL</span></div>
+                        <p>An interactive data-driven quiz environment featuring persistent questionnaire tables, tracking calculations, and elegant dynamic results processing evaluation states.</p>
+                    </div>
+                    <div class="card-action-row">
+                        <a href="https://github.com/msupraja04" target="_blank" class="btn btn-action-card btn-source"><i class="fab fa-github"></i> Source Code</a>
+                       <!--<a href="#" target="_blank" class="btn btn-action-card btn-demo">Live Demo <i class="fas fa-external-link-alt"></i></a>-->
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card neon-border-blue project-wide">
+                    <div class="project-info">
+                        <h3>To-Do List Web Application</h3>
+                        <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript DOM</span></div>
+                        <p>Interactive task management application with Add Task, Delete Task, Complete Task, Form Validation, Dynamic Text Change and Responsive Design.</p>
+                    </div>
+                    <div class="card-action-row">
+                        <a href="https://github.com/msupraja04/ToDoList-MiniProject" target="_blank" class="btn btn-action-card btn-source"><i class="fab fa-github"></i> Source Code</a>
+                        <a href="https://msupraja04.github.io/ToDoList-MiniProject/" target="_blank" class="btn btn-action-card btn-demo">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section (Converted to Modern Cards matching layout) -->
+    <section id="certifications" class="certifications-section scroll-reveal">
+        <div class="container">
+            <h2 class="section-title neon-text-pink">Certifications</h2>
+            <div class="certifications-grid">
+                
+                <!-- Certificate 1 -->
+                <div class="cert-card glass-card neon-border-blue">
+    
+                    <div class="cert-meta">
+                        <h4>Java Training Completion Certificate</h4>
+                        <p class="cert-issuer">GenZ EducateWing</p>
+                    </div>
+                    <div class="cert-icon-actions">
+                        <a href="Genz  java traning certificate.pdf" target="_blank" title="Open Document"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                
+
+                <!-- Certificate 2 -->
+                <div class="cert-card glass-card neon-border-blue">
+                    
+                    <div class="cert-meta">
+                        <h4>Java Internship Completion Certificate</h4>
+                        <p class="cert-issuer">GenZ EducateWing</p>
+                    </div>
+                    <div class="cert-icon-actions">
+                        <a href="genz java internship completion.pdf" target="_blank" title="Open Document"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="cert-card glass-card neon-border-blue">
+                    
+                    <div class="cert-meta">
+                        <h4>Java Full Stack Development Certificate</h4>
+                        <p class="cert-issuer">EduSkills Academy</p>
+                    </div>
+                    <div class="cert-icon-actions">
+                        <a href="Java Full Stack Development With Project Virtual Internship (1).pdf" target="_blank" title="Open Document"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Structure completely maintained) -->
+    <section id="contact" class="contact-section scroll-reveal">
+        <div class="container">
+            <h2 class="section-title neon-text-blue">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-details-side">
+                    <h3>Let's establish a connection</h3>
+                    <p>I am actively preparing for placement, internship opportunities, and collaborative engineering software tracks. Please drop a direct message or find me on my verified digital handles:</p>
+                    <div class="contact-links-list">
+                        <a href="mailto:mandasupraja384@gmail.com" class="c-link"><i class="fas fa-envelope"></i> mandasupraja384@gmail.com</a>
+                        <a href="https://linkedin.com/in/manda-supraja-227478285" target="_blank" class="c-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="https://github.com/msupraja04" target="_blank" class="c-link"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+                <div class="contact-form-side glass-card neon-border-purple">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="8a478c99-c602-4c33-9cfb-d12e343e3612">
+                        <div class="input-container">
+                            <label for="userName">Name</label>
+                            <input type="text" id="userName" name="name"required placeholder="Your Name">
+                        </div>
+                        <div class="input-container">
+                            <label for="userEmail">Email</label>
+                            <input type="email" id="userEmail" name="email" required placeholder="your.email@domain.com">
+                        </div>
+                        <div class="input-container">
+                            <label for="userMessage">Message</label>
+                            <textarea id="userMessage" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                    <div id="formResponseMessage" class="form-msg-box"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-box">
+            <p>&copy; 2026 Manda Supraja. Premium Responsive Developer Architecture.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
