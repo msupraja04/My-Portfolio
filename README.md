@@ -4,7 +4,7 @@ A personal portfolio website showcasing my skills, internship experience, certif
 
 ## 🌐 Live Portfolio
 
-https://msupraja04.github.io/My-Portfolio/
+ https://msupraja04.github.io/My-Portfolio/
 
 ## ✨ Features
 
